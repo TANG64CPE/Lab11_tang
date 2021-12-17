@@ -1,6 +1,3 @@
-//cout << "Number of data = ";
-//cout << "Mean = ";
-//cout << "Standard deviation = ";
 #include <iostream>
 #include <iomanip>
 #include <cstdlib>
@@ -32,6 +29,6 @@ int main(){
     cout << "Number of data = " << count << endl;
     cout << setprecision(3);
     cout << "Mean = " << Mean(sum1,count) << endl;
-    cout << "Standard deviation = " << sqrt(sum2/(count-1));
+    cout << "Standard deviation = " << sqrt(sum2/count);
     return 0;
 }
